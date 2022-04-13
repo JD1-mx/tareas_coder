@@ -1,0 +1,275 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.menuContainer{
+    background-color: black;
+}
+
+ul{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li{
+    padding: 20px;  
+    background-color: none;
+    display: inline-block;
+}
+
+a{
+    color: white;
+    text-decoration: none;  
+}
+
+.connect{
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    background-color: rgb(63, 28, 145);
+    border-style: none;
+    padding: 10px;    
+    color: white;
+    border-radius: 20px;
+}
+
+body{
+    background-color: royalblue;
+}
+
+.welcome{
+    position: absolute;
+    top: 17%;
+    left: 35%;
+    margin: 2%;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.images{
+    position: relative;
+    top: 30px;
+    left: 15%;
+    width: 5px;
+    padding-bottom: 10px;
+}
+
+.welcomeTwitter{
+    position: absolute;
+    top: 32%;
+    left: 55%;
+    background-color: rgb(47, 120, 230);
+    border-style: none;
+    padding: 10px;    
+    color: white;
+    border-radius: 20px;
+}
+
+.welcomeDiscord{
+    position: absolute;
+    top: 32%;
+    left: 65%;
+    background-color: rgb(121, 75, 230);
+    border-style: none;
+    padding: 10px;    
+    color: white;
+    border-radius: 20px;
+}
+
+.countdown{
+    position: relative;
+    top: 20px;
+    text-align: center;
+    color: rgb(59, 59, 59);
+    background-color: whitesmoke;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.countdownText{
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.time{
+    font-size: 55px;
+    margin-top: 25px;
+}
+
+.footerTwitter{
+    position: absolute;
+    bottom:4.5%;
+    right: 15%;
+    background-color: rgb(47, 120, 230);
+    border-style: none;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+}
+
+.footerDiscord{
+    position: absolute;
+    bottom: 4.5%;
+    right: 5%;
+    background-color: rgb(121, 75, 230);
+    border-style: none;   
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+}
+
+.homeFooter{
+    background-color: whitesmoke;
+    padding-bottom: 26px;
+    padding-top: 26px;
+}
+
+.homeTm{
+    color: grey;
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left: 75px;
+    top: 35px;
+    width: 50%;
+}
+
+a.home{
+    color: grey;
+}
+
+
+.titles{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+.info{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    width: 400px;
+}
+
+.q1{
+    position: relative;
+    left: 200px;
+    top: 30px;
+    text-align: center;
+}
+
+.q2{
+    position: relative;
+    left: 800px;
+    text-align: center;
+    bottom: 30px;
+}
+
+
+.q3{
+    position: relative;
+    left: 200px;
+    text-align: center;
+    bottom: 30px;
+}
+
+.q4{
+    position: relative;
+    left: 800px;
+    text-align: center;
+    bottom: 50px;
+}
+
+.tm{
+    color: white;
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left: 75px;
+    top: 35px;
+}
+
+footer h4.tm{
+    position: absolute;
+    top: 93%;
+} 
+
+footer ul.all{
+    position: absolute;
+    top: 90%;
+    left: 30%;
+}
+
+
+.countdownMint{
+    position: relative;
+    top: 100px;
+    text-align: center;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.countdownTextMint{
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.timeMint{
+    font-size: 55px;
+    margin-top: 25px;
+}
+
+.scholar, .ido, .lowcap, .apy{
+    text-align: center;
+}
+
+div.scholar{
+    position: relative;
+    left: 15%;
+    bottom: 200px;
+}
+
+div.ido{
+    position: relative;
+    left: 55%;
+    bottom: 170px;
+}
+
+div.lowcap{
+    position: relative;
+    left: 90%;
+    bottom: 140px;
+}
+
+div.apy{
+    position: relative;
+    left: 190%;
+    bottom: 210px;
+}
+
+.imagenFund{
+    position: relative;
+    top: 100px;
+    left: 60%;
+    width: 10%;
+}
+
+div.info{
+    height: 250px;
+}
+
+.faq{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 400px;
+    text-align: center;
+    position: relative;
+    left: 37%;
+    top: 35px;
+}
